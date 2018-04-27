@@ -24,7 +24,7 @@ body, html {
     overflow: hidden;
     border: none;
     border-radius: 0;
-    background-color: #FFFFFF; opacity: 0.5; filter: alpha(opacity=50);
+    background-color: transparent/*#FFFFFF*/; /*opacity: 0.5; filter: alpha(opacity=50)*/;
     font-family: 'Nunito Sans', sans-serif;
 
 }
@@ -36,8 +36,6 @@ body, html {
 .navbar {
     border: none;
 }
-
-
 
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -58,10 +56,10 @@ body, html {
 }
 
 /* Add an active class to highlight the current page */
-.active {
+/*.active {
     background-color: #ffffff;
     color: white;
-}
+}*/
 
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
@@ -69,9 +67,37 @@ body, html {
 }
 
 #title1, #title2, #title3 {
-    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 100px;
-    color: #BFC9CA;
+    color: #ffffff;
+}
+
+/*about page*/
+/*Container style is for illustration purpose only */
+.container{
+     background-image: url("../BB_02.jpg");
+     max-height: 200px;
+     width: 100%;
+}
+
+/*Can achive using vw css unit*/
+.row-full{
+      width: 100vw;
+      position: relative;
+      margin-left: -50vw;
+      height: 100px;
+      margin-top: 100px;
+      left: 50%;
+}
+
+.titlewrapper {
+    width: 25%;
+    height: 65%;
+    border-color: black;
+    background-color: white;
+    font-size: 40px;
+    margin-left: 50px;
+    text-align: center;
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
