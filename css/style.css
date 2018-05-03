@@ -20,6 +20,10 @@ body, html {
     background-size: cover;
 }
 
+.container-fluid {
+  background-color: white;
+}
+
 .topnav {
     overflow: hidden;
     border: none;
@@ -87,6 +91,7 @@ body, html {
      background-image: url("../NYCbird.jpg");
      max-height: 200px;
      width: 100%;
+     margin-top: 73px;
      /*position: relative;*/
 }
 
@@ -118,6 +123,31 @@ h1 {
   font-size: 50px;
 }
 
+.thumbnail {
+  border: none !important;
+}
+
+#picture {
+  margin-top: 40px;
+  margin-left: 51px;
+}
+
+#aboutme {
+  margin-top: 40px;
+}
+
+p {
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin-left: 40px;
+}
+
+/*footer*/
+
+footer {
+  background-color: #DCDADA;
+  height: 80px;
+}
 
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
@@ -148,8 +178,24 @@ h1 {
   #titlewrapper {
     margin-top: 30px;
     height: 140px;
-    width: 165px;
-    margin-left: 82px;
+    width: 200px;
+    margin-left: 90px;
+  }
+  #picture {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .container {
+      padding-left: 0px;
+      padding-right: 0px;
+      margin-top: 111px;
+  }
+
+  #aboutname {
+      margin-left: 0px;
+      padding-right: 0px;
+      padding-left: 0px;
   }
 }
 
@@ -166,5 +212,9 @@ h1 {
     margin-top: 31px;
     margin-right: 4px;
     margin-left: 20px;
+  }
+
+  #picture {
+    margin-left: 31px;
   }
 }

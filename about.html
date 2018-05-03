@@ -11,30 +11,73 @@
 	    <link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-		<nav class="navbar navbar-inverse">
-			<div class="topnav_about" id="myTopnav">
-				<a href="index.html" class="active">Philipp Wickart</a>
-			</div>
 
-			<div class="topnav" id="myTopnav">
-				<a href="contact.html">Contact</a>
-				<a href="portfolio.html">Portfolio</a>
-				<a href="about.html">About</a>
-				<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+		<!-- <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li>
+      <li><a href="#">Page 3</a></li>
+    </ul>
+  </div>
+</nav>
+ -->
+
+		
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="topnav_about" id="myTopnav">
+					<a href="index.html" id="aboutname">Philipp Wickart</a>
+				</div>
+
+				<div class="topnav" id="myTopnav">
+					<a href="contact.html">Contact</a>
+					<a href="portfolio.html">Portfolio</a>
+					<a href="about.html">About</a>
+					<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+				</div>
 			</div>
 		</nav>
-	
 
-		<div class="container">
-		    <div class="row row-full" id="titlewrapper">
-				  <div class="col-sm-12"></div>
-					<h1>About Philipp</h1>
+			<div class="container">
+			    <div class="row row-full" id="titlewrapper">
+					  <div class="col-sm-12"></div>
+						<h1>About Philipp</h1>
+					</div>
+			    </div>
+			</div>
+		
+			<div class="row">
+				<div class="col-md-2">
 				</div>
+				<div class="col-md-3">
+					<div class="thumbnail">
+						<img src="PMW.jpg" alt="Philipp" id="picture">
+					</div>
+				</div>
+				<div class="col-md-5">
+				    <p id="aboutme">
+				    	I have global and diverse experience. I’ve worked in Europe, Asia, Australia and USA. My background is mostly in Banking where I was lucky to get opportunities to work in different areas and projects like Outsourcing, Offshoring, set up new Funds or also launching a new pricing and billing application. The latter experience inspired me to move into coding and because of the recent move to the US, I was able to go back to School (Rutgers University) and learn about web development. Now, I’m looking to fully move into web development. I’m confident that with my corporate background and newly gained web development experience, I’ll be an asset to your team. 
+						If i don't sit behind the screen or somewhere in an office, you will find me with my family and playing with my kids, running, skiing or anything else that makes fun.
+					</p>
+				</div>
+				<div class="col-md-2">
+				</div>
+			</div>
+		
+		<!--Footer-->
+		<footer class="page-footer font-small blue pt-4 mt-4">
+		    <!--Copyright-->
+		    <div class="footer-copyright py-3 text-center">
+		        © 2018 Copyright: PMW
 		    </div>
-		</div>
-		
-			
-		
+		    <!--/.Copyright-->
+		</footer>
+		<!--/.Footer-->
 
 			<script>
 			function myFunction() {
@@ -46,6 +89,9 @@
 			}
 			}
 			</script>
+
+
+
 
 	</body>
 </html>
