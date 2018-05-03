@@ -42,7 +42,7 @@ body, html {
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    float: right;
+    float: left;
     display: block;
     color: black;
     text-align: center;
@@ -51,6 +51,10 @@ body, html {
     font-size: 17px;
     padding-right: 40px;
     padding-top: 19px;
+}
+
+#navfloatright {
+  float: right;
 }
 
 .topnav_about a {
@@ -71,7 +75,7 @@ body, html {
 }
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #ddd;
+    /*background-color: #ddd;*/
     color: black;
 }
 
@@ -86,25 +90,22 @@ body, html {
     color: #ffffff;
 }
 
-/*about page*/
+/**********ABOUT PAGE******************/
 .container{
      background-image: url("../NYCbird.jpg");
      max-height: 200px;
      width: 100%;
      margin-top: 73px;
-     /*position: relative;*/
 }
 
 /*pic responsive to change of heightt*/
 .row-full{
-      width: 100vw;
-      /*position: relative;*/
-      margin-left: -50vw;
-      height: 100px;
+    width: 100vw;
+    margin-left: -50vw;
+    height: 100px;
 }
 
 #titlewrapper {
-    
     font-family: 'Roboto', sans-serif;
     width: 40%;
     height: 80%;
@@ -132,9 +133,9 @@ h1 {
   margin-left: 51px;
 }
 
-#aboutme {
+/*#aboutme {
   margin-top: 40px;
-}
+}*/
 
 p {
   font-size: 18px;
@@ -154,7 +155,7 @@ footer {
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
-    float: right;
+    float: left;
     display: block;
   }
 }
@@ -193,9 +194,23 @@ footer {
   }
 
   #aboutname {
-      margin-left: 0px;
       padding-right: 0px;
       padding-left: 0px;
+      margin-left: 20px;
+      margin-top: 10px;
+  }
+
+  .icon {
+    margin-left: 175px;
+    margin-top: 10px;
+  }
+
+  #title1 {
+    margin-top: 90px;
+  }
+
+  .topnav {
+    background-color: white;
   }
 }
 
