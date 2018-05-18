@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>PMW</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Nunito|Roboto" rel="stylesheet">
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    	<link rel="stylesheet" href="assets/css/Footer-white.css">
+	    <link rel="stylesheet" type="text/css" href="css/style.css">
+	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+	    <script type="text/javascript" src="js/script.js"></script>
+	</head>
+
+	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="topnav" id="myTopnav">
+				<a href="index.html" id="aboutname">Philipp Wickart</a>
+				<a href="contact.html" id="navfloatright">Contact</a>
+				<a href="portfolio.html" id="navfloatright">Portfolio</a>
+				<a href="about.html" id="navfloatright">About</a>
+				<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+			</div>
+		</nav>
+	
+		<div class="main_container1">
+			<div class="container">
+			    <div class="row row-full" id="titlewrapper">
+					<div class="col-sm-12"></div>
+						<h1>Portfolio</h1>
+				</div>
+			</div>
+		
+			<div class="container-content" id="portfolio">
+				<div class="row">
+				<div class="col-md-2">
+				</div>
+	            <div class="col-md-3">
+	                <div class="thumbnail">
+	                    <img src="giphy.jpg">
+		                <a id="website_link" href="https://philippw73.github.io/Giphy-API">Giphy</a>
+		                <p id="para_portfolio">A Web based application that uses the GIPHY API to get users choice of GIFs (Comic is the topic for this one though). GIFs have a play/ stop feature when clicked.</p>
+		                <p id="para_portfolio"> <b>Technologies used:</b> HTML / CSS / JAVASCRIPT / JQuery / Giphy API / Ajax </p>
+	                </div>
+	            </div>
+				<div class="col-md-2">
+				</div>
+	            <div class="col-md-3">
+	                <div class="thumbnail">
+	                    <img src="psychic.jpg">
+	                    <a id="website_link" href="https://philippw73.github.io/Psychic-Game">Psychic-Game</a>
+	                    <p id="para_portfolio">The app randomly picks a letter and the user has to guess which letter the app chose. The user has 9 guesses to match the randomly computer picked letter. When the player wins, the Wins-Counter will be increased and the game starts over again (without refreshing the page). When the player loses, the Losses-Counter will be increased and the game (after 9 guesses) restarts without a page refresh (just like when the user wins).</p>
+	                    <p id="para_portfolio"> <b>Technologies used:</b> HTML / CSS / JAVASCRIPT / Bootstrap </p>
+	                </div>
+	            </div>
+	            <div class="col-md-2">
+				</div>
+			</div>
+			</div>
+
+			<div class="container-content" id="portfolio">
+				<div class="row">
+				<div class="col-md-2">
+				</div>
+	            <div class="col-md-3">
+	                <div class="thumbnail">
+	                    <img src="ChrisHomepage.jpg" id="imageChris">
+		                <a id="website_link" href="https://philippw73.github.io/Chris">A Homepage</a>
+		                <p id="para_portfolio">A homepage based on a mobirise template and styled on personal needs.</p>
+		                <p id="para_portfolio"> <b>Technologies used:</b> HTML / CSS / JQuery / Mobirise </p>
+	                </div>
+	            </div>
+				<div class="col-md-2">
+				</div>
+	            <div class="col-md-3">
+	                <div class="thumbnail">
+	                    <!-- <img src="psychic.jpg" id="imageChris">
+	                    <a id="website_link" href="https://philippw73.github.io/Psychic-Game">Psychic-Game</a>
+	                    <p id="para_portfolio">The app randomly picks a letter and the user has to guess which letter the app chose. The user has 9 guesses to match the randomly computer picked letter. When the player wins, the Wins-Counter will be increased and the game starts over again (without refreshing the page). When the player loses, the Losses-Counter will be increased and the game (after 9 guesses) restarts without a page refresh (just like when the user wins).</p>
+	                    <p id="para_portfolio"> <b>Technologies used:</b> HTML / CSS / JAVASCRIPT / Bootstrap </p> -->
+	                </div>
+	            </div>
+	            <div class="col-md-2">
+				</div>
+			</div>
+			</div>
+
+
+
+
+		</div>
+
+		<div id="myFooter" class="footer">
+	        <div class="footer-social">
+	            <a href="#" class="social-icons"><i class="fa fa-github"></i></a>
+	            <a href="#" class="social-icons"><i class="fa fa-linkedin-square"></i></a>
+	        </div>
+	        <p class="footer-copyright">© 2018 PMW</p>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<script>
+		function myFunction() {
+		var x = document.getElementById("myTopnav");
+		if (x.className === "topnav") {
+		x.className += " responsive";
+		} else {
+		x.className = "topnav";
+		}
+		}
+		</script>
+	</body>
+</html>

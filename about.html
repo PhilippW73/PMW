@@ -5,75 +5,71 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Roboto" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Nunito|Roboto" rel="stylesheet">
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    	<link rel="stylesheet" href="assets/css/Footer-white.css">
 	    <link rel="stylesheet" type="text/css" href="css/style.css">
+	    <script type="text/javascript" src="assets/js/script.js"></script>
 	</head>
+
 	<body>
 		<nav class="navbar navbar-inverse navbar-fixed-top">
-			<!-- <div class="container-fluid"> -->
-				<div class="topnav" id="myTopnav">
-					<a href="index.html" id="aboutname">Philipp Wickart</a>
-					<a href="contact.html" id="navfloatright">Contact</a>
-					<a href="portfolio.html" id="navfloatright">Portfolio</a>
-					<a href="about.html" id="navfloatright">About</a>
-					<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-				</div>
-			<!-- </div> -->
+			<div class="topnav" id="myTopnav">
+				<a href="index.html" id="aboutname">Philipp Wickart</a>
+				<a href="contact.html" id="navfloatright">Contact</a>
+				<a href="portfolio.html" id="navfloatright">Portfolio</a>
+				<a href="about.html" id="navfloatright">About</a>
+				<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+			</div>
 		</nav>
-
+	
+		<div class="main_container1">
 			<div class="container">
 			    <div class="row row-full" id="titlewrapper">
-					  <div class="col-sm-12"></div>
-						<h1>About Philipp</h1>
-					</div>
-			    </div>
+					<div class="col-sm-12"></div>
+						<h1>About</h1>
+				</div>
 			</div>
 		
-			<div class="row">
+			<div class="container-content">
 				<div class="col-md-2">
 				</div>
 				<div class="col-md-3">
-					<div class="thumbnail">
-						<img src="PMW.jpg" alt="Philipp" id="picture">
+					<div class="thumbnail" id="phil-pic">
+						<img src="Phil.jpg" alt="Philipp" id="picture-phil">
 					</div>
 				</div>
 				<div class="col-md-5">
 				    <p id="aboutme">
 				    	I have global and diverse experience. I’ve worked in Europe, Asia, Australia and USA. My background is mostly in Banking where I was lucky to get opportunities to work in different areas and projects like Outsourcing, Offshoring, set up new Funds or also launching a new pricing and billing application. The latter experience inspired me to move into coding and because of the recent move to the US, I was able to go back to School (Rutgers University) and learn about web development. Now, I’m looking to fully move into web development. I’m confident that with my corporate background and newly gained web development experience, I’ll be an asset to your team. 
-						If i don't sit behind the screen or somewhere in an office, you will find me with my family and playing with my kids, running, skiing or anything else that makes fun.
+						If I don't sit behind the screen or somewhere in an office, you will find me with my family and playing with my kids, running, skiing or anything else that is fun.
 					</p>
 				</div>
 				<div class="col-md-2">
 				</div>
 			</div>
+		</div>
 		
-		<!--Footer-->
-		<footer class="page-footer font-small blue pt-4 mt-4">
-		    <!--Copyright-->
-		    <div class="footer-copyright py-3 text-center">
-		        © 2018 Copyright: PMW
-		    </div>
-		    <!--/.Copyright-->
-		</footer>
-		<!--/.Footer-->
+		<div id="myFooter" class="footer">
+	        <div class="footer-social">
+	            <a href="https://github.com/PhilippW73" class="social-icons"><i class="fa fa-github"></i></a>
+	            <a href="https://www.linkedin.com/in/philippwickart" class="social-icons"><i class="fa fa-linkedin-square"></i></a>
+	        </div>
+		        <p class="footer-copyright">© 2018 PMW</p>
+		</div>
 
-			<script>
-			function myFunction() {
-			var x = document.getElementById("myTopnav");
-			if (x.className === "topnav") {
-			x.className += " responsive";
-			} else {
-			x.className = "topnav";
-			}
-			}
-			</script>
-
-
-
-
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		
+		<script>
+		function myFunction() {
+		var x = document.getElementById("myTopnav");
+		if (x.className === "topnav") {
+		x.className += " responsive";
+		} else {
+		x.className = "topnav";
+		}
+		}
+		</script>
 	</body>
 </html>
-
-
